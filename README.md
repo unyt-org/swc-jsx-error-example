@@ -5,7 +5,9 @@ This example produces an error log in the console in SWC version 1.16.12.
 >
 > Current token = Some(/)
 
-Run the example: 
+The code is still transpiled correctly, but the error log is always displayed.
+
+## Run the example
 ```bash
 deno run -A test.ts
 ```
